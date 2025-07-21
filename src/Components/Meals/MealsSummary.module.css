@@ -1,0 +1,28 @@
+.summary {
+  position: absolute;                          /* Position it over the image */
+  top: 20%;                                    /* Move it down slightly */
+  left: 50%;                                   /* Center horizontally */
+  transform: translate(-50%, -50%);            /* Perfect center alignment */
+  max-width: 40rem;
+  width: 90%;
+  background-color: rgba(40, 28, 28, 0.95);
+  color: white;
+  text-align: center;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  padding: 2rem;
+  z-index: 2;                                  /* Ensure it's above the image */
+  margin-top: 15%;
+}
+  
+.summary h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #ffc107;
+}
+
+.summary p {
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+  line-height: 1.5;
+}
