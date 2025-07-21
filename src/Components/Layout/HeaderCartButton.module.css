@@ -1,0 +1,38 @@
+.button {
+  cursor: pointer;
+  font: inherit;
+  border: none;
+  background-color: #4d1601;
+  color: white;
+  padding: 0.75rem 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  position: relative;
+  flex-shrink: 0;    /* Prevent shrinking in flex container */
+  box-sizing: border-box;
+}
+
+
+.button:hover,
+.button:active {
+  background-color: #2c0d00;
+}
+
+.icon {
+  width: 1.35rem;
+  height: 1.35rem;
+  margin-right: 0.5rem;
+  display: inline-block;
+}
+
+.badge {
+  background-color: #b94517;
+  padding: 0.25rem 1rem;
+  border-radius: 25px;
+  margin-left: 1rem;
+  font-weight: bold;
+}
