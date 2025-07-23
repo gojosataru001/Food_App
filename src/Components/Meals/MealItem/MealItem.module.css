@@ -1,0 +1,27 @@
+.meal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 6px;
+  transition: box-shadow 0.3s ease;
+}
+
+.meal:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.description {
+  font-style: italic;
+  color: #666;
+  margin: 0.25rem 0;
+}
+
+.price {
+  font-weight: bold;
+  color: #ad5502;
+  font-size: 1.25rem;
+}
